@@ -611,7 +611,7 @@
 							// Secondary Navigation
 							keyboard: true,                 //Boolean: Allow slider navigating via keyboard left/right keys
 							multipleKeyboard: false,        //{NEW} Boolean: Allow keyboard navigation to affect multiple sliders. Default behavior cuts out keyboard navigation with more than one slider present.
-							mousewheel: false,              //{UPDATED} Boolean: Requires jquery.mousewheel.js (https://github.com/brandonaaron/jquery-mousewheel) - Allows slider navigating via mousewheel
+							mousewheel: false,              //{UPDATED} Boolean: Requires jquery.mousewheel.js (s://github.com/brandonaaron/jquery-mousewheel) - Allows slider navigating via mousewheel
 							pausePlay: false,               //Boolean: Create pause/play dynamic element
 							pauseText: 'Pause',             //String: Set the text for the "pause" pausePlay item
 							playText: 'Play',               //String: Set the text for the "play" pausePlay item
@@ -675,7 +675,7 @@
 					
 
 					defaults = {
-						flickrbase:'http://api.flickr.com/services/feeds/',
+						flickrbase:'https://api.flickr.com/services/feeds/',
 						feedapi:'photos_public.gne',
 						limit: self.hasClass('nine_items') ? 9 : 6,
 						qstrings:{lang:'en-us',format:'json',jsoncallback:'?'},
