@@ -1,0 +1,52 @@
+<section class="page_title translucent_bg_color_scheme image_fixed image_bg_14 t_align_c relative wrapper">
+    <div class="container">
+        <h1 class="color_light fw_light m_bottom_5" style="padding: 1rem;">{{.Get `get_started_section_1_title`}}</h1>
+        <h3 class="color_light fw_light m_bottom_5" style="padding: 1rem;">{{.Get `get_started_section_1_subtitle`}}</h3>
+        <h3 class="color_light fw_light m_bottom_5" style="padding: 1rem;">{{.Get `get_started_section_1_subtitle2`}}</h3>
+        <!--breadcrumbs-->
+    </div>
+</section>
+
+<section class="section_offset">
+    <div style="display: flex; justify-content: center; padding-bottom: 4rem;">
+        <h3 class="color_dark fw_light m_bottom_15 heading_1 t_align_c">{{.Get `form_header`}}</h3>
+    </div>
+        <div class="container clearfix">
+            <div style="display: flex; justify-content: center;">
+                <form action="/confirmation" name="Contact_us" method="post" data-netlify="true" style="border: solid var(--color3) 2px;">
+                    <ul>
+                        <li class="row m_bottom_10" style="padding: 1.5rem;">
+                            <div class="col-lg-6 col-md-6 col-sm-6 w_xs_full m_xs_bottom_10">
+                                <input type="text" name="name" placeholder="Full Name*" class="w_full r_corners fw_light" required>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 w_xs_full">
+                                <input type="email" name="email" placeholder="Email*" class="w_full r_corners fw_light" required>
+                            </div>
+                        </li>
+                        <li class="m_bottom_10" style="padding: 1.5rem;">
+                            <input type="tel" name="phone" placeholder="Phone #" class="w_full r_corners fw_light" required>
+                        </li>
+                        <li class="m_bottom_10" style="padding: 1.5rem;">
+                            <textarea class="w_full r_corners fw_light height_3" name="message" placeholder="Message" required></textarea>
+                        </li>
+                        <li style="padding: 1.5rem;">
+                            <button class="button_type_5 color_blue transparent r_corners fs_medium tr_all m_right_10 m_sm_bottom_10" style="width: 100%;">Submit</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_offset" style="background-color: #A3B69C;">
+    <div style="display: flex; justify-content: center; padding-bottom: 4rem;">
+        <h3 class="color_dark fw_light m_bottom_15 heading_1 t_align_c" style="color: white;">{{.Get `map_header`}}</h3>
+    </div>
+        <div class="container clearfix">
+            <div style="display: flex; justify-content: center;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2987.0823602270702!2d-112.01843238428383!3d41.52415659546756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87537b1a7498a67d%3A0xa3b71a5d9e6e6493!2sRocky%20Mountain%20Bible%20Church!5e0!3m2!1sen!2sus!4v1663789879887!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</section>

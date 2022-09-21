@@ -1,0 +1,232 @@
+<!--Variables-->
+
+{{ $image1 := "/images/spiritual.house.jpg"}}
+{{ $image2 := "/images/growing.jpg"}}
+{{ $image3 := "/images/loving.jpg"}}
+{{ $image4 := "/images/army.jpg"}}
+
+<!--Variables end-->
+
+<section class="page_title translucent_bg_color_scheme image_fixed image_bg_14 t_align_c relative wrapper">
+    <div class="container">
+        <h1 class="color_light fw_light m_bottom_5" style="padding: 1rem;">{{.Get `get_started_section_1_title`}}</h1>
+        <h3 class="color_light fw_light m_bottom_5" style="padding: 1rem;">{{.Get `get_started_section_1_subtitle`}}</h3>
+        <h3 class="color_light fw_light m_bottom_5" style="padding: 1rem;">{{.Get `get_started_section_1_subtitle2`}}</h3>
+        <!--breadcrumbs-->
+    </div>
+</section>
+
+<section id="mission">
+    <section class="section_offset">
+        <div class="container t_align_c">
+            <h3 class="color_dark fw_light m_bottom_15 heading_1">{{.Get `mission_title`}}</h3>
+            <h4 class="t_align_c" style="padding-bottom: 4rem;">{{.Get `mission_subtitle`}}</h4>
+            <div style="display: flex; justify-content: center; text-align: center;">
+                <div class="col-lg-6 col-md-6 t_align_l">
+                    <p class="m_bottom_15 fw_light fs_large">{{.Get `mission_body`}}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<section class="section_offset" style="background-color: #A3B69C;" id="core_value">
+    <div class="container t_align_c">
+        <h3 class="color_dark fw_light m_bottom_15 heading_1" data-appear-animation="bounceInLeft" style="color: white;">{{.Get `core_values_title`}}</h3>
+        <p class="m_bottom_35 heading_2" data-appear-animation="bounceInLeft" data-appear-animation-delay="150" style="color: white;">{{.Get `core_values_subtitle`}}</p>
+        <div class="tabs">
+            <!--tabs nav-->
+            <ul class="tabs_nav hr_list d_inline_b d_xs_block m_bottom_30 m_xs_bottom_20" data-appear-animation="bounceInLeft" data-appear-animation-delay="800">
+                <li class="f_xs_none"><a href="#tab-1" class="color_dark d_block n_sc_hover" style="color: white;">{{.Get `core_values_1`}}</a></li>
+                <li class="f_xs_none"><a href="#tab-2" class="color_dark d_block n_sc_hover" style="color: white;">{{.Get `core_values_2`}}</a></li>
+                <li class="f_xs_none"><a href="#tab-3" class="color_dark d_block n_sc_hover" style="color: white;">{{.Get `core_values_3`}}</a></li>
+                <li class="f_xs_none"><a href="#tab-4" class="color_dark d_block n_sc_hover" style="color: white;">{{.Get `core_values_4`}}</a></li>
+                <li class="f_xs_none"><a href="#tab-5" class="color_dark d_block n_sc_hover" style="color: white;">{{.Get `core_values_5`}}</a></li>
+                <li class="f_xs_none"><a href="#tab-6" class="color_dark d_block n_sc_hover" style="color: white;">{{.Get `core_values_6`}}</a></li>
+                <li class="f_xs_none"><a href="#tab-7" class="color_dark d_block n_sc_hover" style="color: white;">{{.Get `core_values_7`}}</a></li>
+            </ul>
+            <!--tabs content-->
+            <article id="tab-1" data-appear-animation="fadeInUp" data-appear-animation-delay="450">
+                <div style="display: flex; justify-content: center; text-align: center;">
+                    <div class="col-lg-6 col-md-6 t_align_l fw_light">
+                        <p class="m_bottom_15" style="color: white;">{{.Get `biblical_truth`}} </p>
+                    </div>
+                </div>
+            </article>
+            <article id="tab-2" data-appear-animation="fadeInUp" data-appear-animation-delay="450">
+                <div style="display: flex; justify-content: center; text-align: center;">
+                    <div class="col-lg-6 col-md-6 t_align_l fw_light">
+                        <p class="m_bottom_15" style="color: white;">{{.Get `glory`}} </p>
+                    </div>
+                </div>
+            </article>
+            <article id="tab-3" data-appear-animation="fadeInUp" data-appear-animation-delay="450">
+                <div style="display: flex; justify-content: center; text-align: center;">
+                    <div class="col-lg-6 col-md-6 t_align_l fw_light">
+                        <p class="m_bottom_15" style="color: white;">{{.Get `gospel`}} </p>
+                    </div>
+                </div>
+            </article>
+            <article id="tab-4" data-appear-animation="fadeInUp" data-appear-animation-delay="450">
+                <div style="display: flex; justify-content: center; text-align: center;">
+                    <div class="col-lg-6 col-md-6 t_align_l fw_light">
+                        <p class="m_bottom_15" style="color: white;">{{.Get `prayer`}} </p>
+                    </div>
+                </div>
+            </article>
+            <article id="tab-5" data-appear-animation="fadeInUp" data-appear-animation-delay="450">
+                <div style="display: flex; justify-content: center; text-align: center;">
+                    <div class="col-lg-6 col-md-6 t_align_l fw_light">
+                        <p class="m_bottom_15" style="color: white;">{{.Get `community`}} </p>
+                    </div>
+                </div>
+            </article>
+            <article id="tab-6" data-appear-animation="fadeInUp" data-appear-animation-delay="450">
+                <div style="display: flex; justify-content: center; text-align: center;">
+                    <div class="col-lg-6 col-md-6 t_align_l fw_light">
+                        <p class="m_bottom_15" style="color: white;">{{.Get `growth`}} </p>
+                    </div>
+                </div>
+            </article>
+            <article id="tab-7" data-appear-animation="fadeInUp" data-appear-animation-delay="450">
+                <div style="display: flex; justify-content: center; text-align: center;">
+                    <div class="col-lg-6 col-md-6 t_align_l fw_light">
+                        <p class="m_bottom_15" style="color: white;">{{.Get `missions`}} </p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="section_offset bg_light_2" id="vision">
+    <h1 class="t_align_c" style="padding-bottom: 1rem;">{{.Get `vision_title`}}</h1>
+    <h4 class="t_align_c" style="padding-bottom: 4rem;">{{.Get `vision_subtitle`}}</h4>
+    <div class="container counter">
+        <div class="row step">
+            <div class="col-lg-6 col-md-6 col-sm-6 m_xs_bottom_30 m_bottom_40 m_sm_right_15 m_sm_bottom_5">
+                <!--step image-->
+                <div class="step_img_container counter_inc">
+                    <div class="d_table">
+                        <!--counter-->
+                        <div class="d_table_cell v_align_m color_purple step_counter t_align_c tr_all"></div>
+                        <!--image-->
+                        <div class="d_table_cell"><img src="{{$image1}}" alt="A Spiritual House"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="spiritualhouse" class="col-lg-6 col-md-6 m_xs_bottom_30 m_bottom_40 step_description">
+                <!--step description-->
+                <h3 class="fw_light color_dark m_bottom_15 tr_all">{{.Get `spiritual_house`}}</h3>
+                <p>{{.Get `spiritual_house1`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `spiritual_house2`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `spiritual_house3`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `spiritual_house4`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `spiritual_house5`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `spiritual_house6`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `spiritual_house7`}}</p>
+                <br>
+            </div>
+        </div>
+        <div class="row step">
+            <div id="growing" class="col-lg-6 col-md-6 m_xs_bottom_30 m_bottom_40 step_description">
+                <!--step description-->
+                <h3 class="fw_light color_dark m_bottom_15 tr_all">{{.Get `growing`}}</h3>
+                <p>{{.Get `growing1`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `growing2`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `growing3`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `growing4`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `growing5`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `growing6`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `growing7`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `growing8`}}</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 f_sm_right m_xs_bottom_30 m_sm_bottom_5 m_sm_left_15 m_bottom_40">
+                <!--step image-->
+                <div class="step_img_container right counter_inc">
+                    <div class="d_table">
+                        <!--image-->
+                        <div class="d_table_cell"><img src="{{$image2}}" alt="A Growing Body"></div>
+                        <!--counter-->
+                        <div class="d_table_cell v_align_m color_purple step_counter t_align_c tr_all"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row step">
+            <div class="col-lg-6 col-md-6 col-sm-6 m_xs_bottom_30 m_bottom_40 m_sm_bottom_5 m_sm_right_15">
+                <!--step image-->
+                <div class="step_img_container counter_inc">
+                    <div class="d_table">
+                        <!--counter-->
+                        <div class="d_table_cell v_align_m color_purple step_counter t_align_c tr_all"></div>
+                        <!--image-->
+                        <div class="d_table_cell"><img src="{{$image3}}" alt="A Loving Servant"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="loving" class="col-lg-6 col-md-6 m_xs_bottom_30 m_bottom_40 step_description">
+                <!--step description-->
+                <h3 class="fw_light color_dark m_bottom_15 tr_all">{{.Get `loving`}}</h3>
+                <p>{{.Get `loving1`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `loving2`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `loving3`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `loving4`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `loving5`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `loving6`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `loving7`}}</p>
+            </div>
+        </div>
+        <div class="row step">
+            <div id="army" class="col-lg-6 col-md-6 m_xs_bottom_30 step_description">
+                <!--step description-->
+                <h3 class="fw_light color_dark m_bottom_15 tr_all">{{.Get `army`}}</h3>
+                <p>{{.Get `army1`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `army2`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `army3`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `army4`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `army5`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `army6`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `army7`}}</p>
+                <br>
+                <p style="margin-left: 20px;">{{.Get `army8`}}</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 f_sm_right m_sm_left_15 m_sm_bottom_5">
+                <!--step image-->
+                <div class="step_img_container right counter_inc">
+                    <div class="d_table">
+                        <!--image-->
+                        <div class="d_table_cell"><img src="{{$image4}}" alt="A Rescuing Army"></div>
+                        <!--counter-->
+                        <div class="d_table_cell v_align_m color_purple step_counter t_align_c tr_all"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
