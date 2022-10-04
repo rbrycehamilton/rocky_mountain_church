@@ -17,13 +17,13 @@
 </section>
 
 <section id="mission">
-    <section class="section_offset">
-        <div class="container t_align_c">
-            <h3 class="color_dark fw_light m_bottom_15 heading_1">{{.Get `mission_title`}}</h3>
-            <h4 class="t_align_c" style="padding-bottom: 4rem;">{{.Get `mission_subtitle`}}</h4>
+    <section class="section_offset" style="background-image: url(/images/blue_sky.jpg); background-attachment: fixed; border: white solid 10px;">
+        <div class="container t_align_c" style="color: white;">
+            <h3 class="color_dark fw_light m_bottom_15 heading_1"  style="color: white;">{{.Get `mission_title`}}</h3>
+            <h4 class="t_align_c" style="padding-bottom: 2rem;">{{.Get `mission_subtitle`}}</h4>
             <div style="display: flex; justify-content: center; text-align: center;">
                 <div class="col-lg-6 col-md-6 t_align_l">
-                    <p class="m_bottom_15 fw_light fs_large">{{.Get `mission_body`}}</p>
+                    <p class="m_bottom_15 fw_light fs_large"><b>{{.Get `mission_body`}}</b></p>
                 </div>
             </div>
         </div>

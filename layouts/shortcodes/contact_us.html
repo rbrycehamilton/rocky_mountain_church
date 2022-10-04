@@ -43,10 +43,26 @@
     <div style="display: flex; justify-content: center; padding-bottom: 4rem;">
         <h3 class="color_dark fw_light m_bottom_15 heading_1 t_align_c" style="color: white;">{{.Get `map_header`}}</h3>
     </div>
-        <div class="container clearfix">
-            <div style="display: flex; justify-content: center;">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2987.0823602270702!2d-112.01843238428383!3d41.52415659546756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87537b1a7498a67d%3A0xa3b71a5d9e6e6493!2sRocky%20Mountain%20Bible%20Church!5e0!3m2!1sen!2sus!4v1663789879887!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+    <style>
+        @media screen and (max-width:1024px) {
+            .flex-direction {
+                flex-direction: column;
+            }
+        }
+    </style>
+    <div class="container flex-direction" style="display: flex; justify-content: space-between;">
+        <div style="display: flex; justify-content: center;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2987.0823602270702!2d-112.01843238428383!3d41.52415659546756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87537b1a7498a67d%3A0xa3b71a5d9e6e6493!2sRocky%20Mountain%20Bible%20Church!5e0!3m2!1sen!2sus!4v1663789879887!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div style="width: 100%; display: flex; align-content: center; flex-direction: column; padding-top: 2rem;">
+            <h3 class="color_dark fw_light m_bottom_15 heading_1 t_align_c" style="color: white;">Address:</h3>
+            <h4 class="color_dark fw_light m_bottom_15 heading_1 t_align_c" style="color: white;">659 North Main Street</h4>
+            <h4 class="color_dark fw_light m_bottom_15 heading_1 t_align_c" style="color: white;">Brigham City, UT 84302</h4><br>
+            <h3 class="color_dark fw_light m_bottom_15 heading_1 t_align_c" style="color: white;">Service Time:</h3>
+            <h4 class="color_dark fw_light m_bottom_15 heading_1 t_align_c" style="color: white;">Sundays | 10:15am</h4><br>
+            <h4 class="color_dark fw_light m_bottom_15 heading_1 t_align_c" style="color: white;">Phone: <a href="tel:435-339-0133" style="color: white;">(435) 339-0133</a></h4>
+            <h4 class="color_dark fw_light m_bottom_15 heading_1 t_align_c" style="color: white;">Email: <a href="mailto:rmbcutah@gmail.com" style="color: white;">rmbcutah@gmail.com</a></h4>
+            <h4 class="color_dark fw_light m_bottom_15 heading_1 t_align_c" style="color: white;"><a href="https://www.facebook.com/RMBCUtah/" style="color: white;" target="_blank">Facebook</a></h4>
         </div>
     </div>
 </section>

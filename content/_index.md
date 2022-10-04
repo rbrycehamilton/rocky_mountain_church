@@ -25,7 +25,7 @@ draft: true
 
     learn= "Learn More About Us"
 
-    team= "Our Team"
+    team= "Our Pastor"
 
     beliefs= "Our Beliefs"
 

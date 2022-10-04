@@ -8,4 +8,6 @@ draft: true
 get_started_section_2_title="Plan Your Visit"
 form_header="We Can't Wait to Meet You"
 
+map_header="See You Soon!"
+
 >}}
