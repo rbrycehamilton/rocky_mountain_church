@@ -5,7 +5,7 @@ draft: true
 ---
  {{< service_times 
  
- welcome="Join Us In Person or Online"
+ welcome="Join Us"
 
  sunday="Sundays"
 
