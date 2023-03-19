@@ -37,6 +37,18 @@ draft: true
 
  >}}
 
+ {{< yembed
+ 
+ livestream="Our Most Recent Content"
+
+ no_problem="Couldn't make it on Sunday morning? Although we desire for you to worship with us in person, we also want to minister to you when you can't."
+
+ live_now="Here you will find our most recent video content, and can view our library by clicking below."
+
+ join="Visit Us on YouTube"
+
+  >}}
+
  {{< expository 
  
  expository="Expository Preaching"
